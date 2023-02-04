@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Mosafer Suite" verbose="1" thread-count="2" parallel="classes">
+
+
+    <test name="async" parallel="true">
+        <packages>
+            <package name="async"/>
+        </packages>
+    </test>
+
+    <test name="autoComplete" parallel="true">
+        <packages>
+            <package name="autoComplete"/>
+        </packages>
+    </test>
+</suite>
